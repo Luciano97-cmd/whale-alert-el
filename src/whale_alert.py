@@ -18,3 +18,6 @@ response.encoding = 'utf-8'
 
 soup = BeautifulSoup(response.content, 'html.parser')
 table = soup.select('table.table tbody tr')
+
+
+
